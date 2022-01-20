@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "cardTitle": "Title 1",
+        "cardDesc": "Description 1",
+        "cardLink": "https://www.linkedin.com/in/shivanand-patil-323a0413b/",
+        "cardImg": "https://via.placeholder.com/150",
+        "cardLinkTitle": "Go Here"
+    },
+    {
+        "id": "2",
+        "cardTitle": "Title 2",
+        "cardDesc": "Description 2",
+        "cardLink": "https://www.linkedin.com/in/shivanand-patil-323a0413b/",
+        "cardImg": "https://via.placeholder.com/150",
+        "cardLinkTitle": "Go Here"
+    },
+    {
+        "id": "3",
+        "cardTitle": "Title 3",
+        "cardDesc": "Description 3",
+        "cardLink": "https://www.linkedin.com/in/shivanand-patil-323a0413b/",
+        "cardImg": "https://via.placeholder.com/150",
+        "cardLinkTitle": "Go Here"
+    },
+    {
+        "id": "4",
+        "cardTitle": "Title 4",
+        "cardDesc": "Description 4",
+        "cardLink": "https://www.linkedin.com/in/shivanand-patil-323a0413b/",
+        "cardImg": "https://via.placeholder.com/150",
+        "cardLinkTitle": "Go Here"
+    },
+    {
+        "id": "5",
+        "cardTitle": "Title 5",
+        "cardDesc": "Description 5",
+        "cardLink": "https://www.linkedin.com/in/shivanand-patil-323a0413b/",
+        "cardImg": "https://via.placeholder.com/150",
+        "cardLinkTitle": "Go Here"
+    }
+]
