@@ -9,11 +9,21 @@ import { ProfileContextProvider } from './contexts/ProfileContext';
 function App() {
   return (
     <ProfileContextProvider initialProfileName='Shivanand Patil'>
-      <Container>
+      <Container className='container-fluid'>
         <Header></Header>
-        <TilesSection sectionName='Blogs' data={data}></TilesSection>
-        <TilesSection sectionName='Projects' data={data}></TilesSection>
-        <Technologies></Technologies>
+        <div className='row'>
+          <div className='col-12 col-lg-8'>
+            <div className='row'>
+              <TilesSection sectionName='Blogs' data={data}></TilesSection>
+              <TilesSection sectionName='Projects' data={data}></TilesSection>
+            </div>
+          </div>
+          <div className='col-12 col-lg-4'>
+
+            <Technologies></Technologies>
+          </div>
+        </div>
+
       </Container>
     </ProfileContextProvider>
   );
