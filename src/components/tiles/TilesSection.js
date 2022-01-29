@@ -1,5 +1,5 @@
 import { Carousel, CarouselItem } from 'react-bootstrap';
-import useWindowDimensions from './../hooks/useWindowDimensions';
+import useWindowDimensions from '../../hooks/useWindowDimensions';
 import _ from "lodash";
 import Tiles from './Tiles';
 function TilesSection({ sectionName, data }) {

@@ -1,8 +1,9 @@
 import { useContext } from "react";
 import { Container, Navbar } from "react-bootstrap";
+import { Link, NavLink } from "react-router-dom";
 import { ProfileContext } from "../contexts/ProfileContext";
 function Header() {
-    const { profileName,profileIntro } = useContext(ProfileContext);
+    const { profileName, profileIntro } = useContext(ProfileContext);
     return (
         <Container>
             <Navbar>
@@ -13,7 +14,19 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Home</a>
+                            <NavLink className="nav-link" to="/">Home</NavLink>
+                        </li>
+                        <li className="nav-item active">
+                            <NavLink className="nav-link" to="/projects">Projects</NavLink>
+                        </li>
+                        <li className="nav-item active">
+                            <NavLink className="nav-link" to="/blogs">Blogs</NavLink>
+                        </li>
+                        <li className="nav-item active">
+                            <NavLink className="nav-link" to="/about">About</NavLink>
+                        </li>
+                        <li className="nav-item active">
+                            <NavLink className="nav-link" to="/contact">Contact</NavLink>
                         </li>
                     </ul>
                 </div>

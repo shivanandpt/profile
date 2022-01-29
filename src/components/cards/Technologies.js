@@ -1,4 +1,4 @@
-import data from './../technologies.json'
+import data from '../../technologies.json'
 import TechCard from './TechCard';
 
 function Technologies(props) {
